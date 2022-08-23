@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Booking Page</title>
+        <link rel="icon" type="image/x-icon" href="/images/image2.png"/>
+        <link rel="Stylesheet" href="bookingpage.css"   />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <img id="pic" src="images/2.jpg">
+            
+                
+                    <form action="confirmation.html" class="needs-validation" onsubmit="passvalues()" novalidate>  
+                        <div class="form">
+                            <h1>Passenger Details</h1> 
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name:</label>
+                            <input type="text" class="form-control" id="firstName" maxlength="20" pattern="[a-zA-Z]+"  required >
+                            <div class="invalid-feedback">
+                                Please enter your first name
+                            </div>
+                        </div>
+
+                          <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="lastName" maxlength="20" pattern="[a-zA-Z\s]+"  required>
+                            <div class="invalid-feedback">
+                                Please enter your last name
+                            </div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="age" class="form-label">Age:</label>
+                            <input type="number" class="form-control" id="age" maxlength="3" pattern="[1-9]{3}" min="18" max="105"  required>
+                            <div class="invalid-feedback">
+                                Please enter your age
+                            </div>
+                          </div>
+
+                      
+                        <div class="mb-3" id="rad">
+                          <span class="form-label">Gender :</span>
+                          <br>
+                          <input type="radio" id="male" name="gender" value="Male" checked="checked">
+                          <label for="Male">Male</label><br>
+                          <input type="radio" id="female" name="gender" value="Female" checked="checked">
+                          <label for="female">Female</label><br>
+                          <input type="radio" id="other" name="gender" value="Other" checked="checked">
+                          <label for="other">Other</label>
+                      </div>
+
+                        <div class="mb-3">
+                        <label for="Mail"  class="form-label">Email address:</label>
+                        <input id="Mail" class="form-control" type="email" required aria-describedby="emailHelp"/>
+                        <div class="invalid-feedback">
+                            Please enter your email Id
+                        </div>
+
+                        <div class="mb-3">
+                        <label for="Contact"  class="form-label">Phone Number:</label>
+                        <input id="Contact" class="form-control" type="tel" maxlength="10" pattern="[0-9]{10}" required />
+                        <div class="invalid-feedback">
+                            Please enter your Phone number
+                        </div>
+                        </div>  
+                        <div class="booking">
+                            <div id="submit">
+                                <button type="submit" value="submit" >BOOK NOW</button>
+                            </div> 
+                         </div>  
+                    </form>
+                    <input type="checkbox" id="addpassenger" name="addpassenger" value="yes" onclick="callvalue()">
+                    <div id="read"><label for="addpassenger">Add Passenger</label></div>
+                    <form action="confirmation.html" style="display:none" class="needs-validation" id="set" onsubmit="printvalues()" novalidate>
+                        <div id="newPassengers">
+                          
+                              <label for="firstName1" class="form-label">First Name</label>
+                              <input type="text" class="form-control" id="firstName1"  maxlength="20" pattern="[a-zA-Z]+" required >
+                           
+                              <label for="lastName1" class="form-label">Last Name</label>
+                              <input type="text" class="form-control" id="lastName1"  maxlength="20" pattern="[a-zA-Z]+" required>
+                              
+                              <label for="age1" class="form-label">Age</label>
+                              <input type="number" class="form-control" id="age1" maxlength="3" pattern="[1-9]{3}" min="18" max="150" required>
+                              <div id="radi">
+                              <span class="form-label">Gender :</span>
+                              <br>
+                              <input type="radio" id="male1" name="gender" value="Male" checked="checked" required>
+                              <label for="Male">Male</label><br>
+                              <input type="radio" id="female1" name="gender" value="Female" checked="checked">
+                              <label for="female">Female</label><br>
+                              <input type="radio" id="other1" name="gender" value="Other" checked="checked">
+                              <label for="other">Other</label>
+                            </div>
+                           </div>
+                           
+
+                        
+                           <div class="booking">
+                            <div id="submit2">
+                                <button type="submit" value="submit">BOOK NOW</button>
+                            </div> 
+                            </div>  
+                        
+                    </form>
+
+                     
+                     
+                </div>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="booking.js"></script>
+        
+</html>

@@ -1,0 +1,156 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(19, 18, 17);
+    padding: 50px;
+
+}
+#intro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding-left: 40px;
+    padding-top: 100px;
+    text-align: center;
+    text-shadow: 10px;
+    font-weight: bolder;
+}
+.pic {
+    background-image: url(images/nas.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-position-x: 300%;
+    background-position-y: 30%;
+    position: fixed;
+    width : 100%;
+    height : 100vh;
+    z-index: -1;
+    padding-bottom: 0%;  
+    opacity: 0.5;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(43, 9, 9);
+    font-size:50px;
+    font-weight: 400px;
+    padding: 3%;
+}
+
+#logo {
+    border: 3px solid rgb(22, 20, 20);
+    padding: 2px;
+    margin: 8px;
+    border-radius: 300px;
+    height: 3cm;
+    width: 3cm;
+    size: 10px;
+}
+
+#button {
+    text-align: center;
+    background-color: rgb(63, 2, 2);
+    color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 20px;
+    font-size: larger;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    
+
+}
+#touch {
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+nav {
+    position: sticky;
+}
+#navigate li {
+    display: inline;
+    padding: 50px;
+    
+}
+#navigate li a {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 1000;
+    text-decoration: none;
+}
+#navigate {
+    float: right;
+}
+header img,header #header{
+    display: inline;
+    vertical-align: middle;
+}
+header #user, header nav{
+    display: inline;
+    
+}
+.description {
+    padding: 5px;
+    background-color: rgb(228, 217, 208);
+    color: black;
+    padding: 5%;
+    
+}
+body #overview, body  #vision, body  #values {
+    height: 8cm;
+    width: 9cm; 
+    padding-top: 3%;
+    padding-bottom: 5%;  
+}
+body .description #down1, body .description #down2, body .description #down3 {
+    text-align: center;
+    width: 100rem;
+    justify-content: baseline;
+    padding-left: 5%;
+    
+}
+
+#card-collection .card {
+    display: inline-block;
+    
+}
+.card-body h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    
+    
+}
+.card-body {
+    text-align: center;
+    background-color: rgb(207, 189, 172);
+    border: 500px;
+    border-color: black;
+   
+    
+    
+}
+.card-body .sol {
+    height: 10vh;
+    width: 10vh;
+}
+.card {
+    margin: 10px;
+    width: 7cm;
+    
+}
+#card-collection {
+    padding-left: 5%;
+    padding-top: 18%;
+    padding-bottom: 25%;
+}
