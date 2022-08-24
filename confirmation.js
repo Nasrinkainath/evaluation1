@@ -1,32 +1,31 @@
-let flight_id=localStorage.getItem("flightid");
+let flight_id = localStorage.getItem("flightid");
 
 
-let data1=localStorage.getItem("firstName");
-let data2=localStorage.getItem("lastName");
-let data3=localStorage.getItem("age");
-let var2=localStorage.getItem("b6");
-let data5=localStorage.getItem("b1");
-let data6=localStorage.getItem("Contact");
-let data7=sessionStorage.getItem("c1");
-let data8=sessionStorage.getItem("c2");
-let data9=sessionStorage.getItem("c3");
-let var1=sessionStorage.getItem("gender");
+let data1 = localStorage.getItem("firstName");
+let data2 = localStorage.getItem("lastName");
+let data3 = localStorage.getItem("age");
+let var2 = localStorage.getItem("b6");
+let data5 = localStorage.getItem("b1");
+let data6 = localStorage.getItem("Contact");
+let data7 = sessionStorage.getItem("c1");
+let data8 = sessionStorage.getItem("c2");
+let data9 = sessionStorage.getItem("c3");
+let var1 = sessionStorage.getItem("gender");
 
-flight_id-=1;
+flight_id -= 1;
 
 
 console.log(flight_id);
 
 
 
-let content='';
+let content = '';
 
-function display_value(data)
-{
-    departure=new Date(data[flight_id].departTime);
-    arrival=new Date(data[flight_id].ArrivalTime);
+function display_value(data) {
+    departure = new Date(data[flight_id].departTime);
+    arrival = new Date(data[flight_id].ArrivalTime);
 
-    content +=  `
+    content += `
     
     
     <div class="column">
@@ -68,16 +67,16 @@ function display_value(data)
 
 `
 
-document.querySelector("#card-collection").innerHTML = content;
-if(data7!=null) {
-    document.getElementById('newPassenger').style = "display:true";
-}
-else{
-    document.getElementById('newPassenger').style.display = none;
+    document.querySelector("#card-collection").innerHTML = content;
+    if (data7 != null) {
+        document.getElementById('newPassenger').style = "display:true";
+    }
+    else {
+        document.getElementById('newPassenger').style.display = none;
 
-}
+    }
 }
 
 fetch('flights.json')
-.then(response => response.json())
-.then(data => display_value(data));
+    .then(response => response.json())
+    .then(data => display_value(data));

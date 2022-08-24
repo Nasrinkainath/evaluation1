@@ -1,6 +1,7 @@
 body {
     background-color: rgb(240, 234, 227);
 }
+
 h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,7 +10,7 @@ h1 {
     color: rgb(16, 59, 16);
     padding: 20px;
     background-color: rgb(206, 231, 206);
-    
+
 }
 
 #sol {
@@ -23,38 +24,48 @@ h1 {
     padding: 20px;
     border-radius: 15px;
 }
+
 #message {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 1000px;
 }
 
-#card-collection .card  {
+#card-collection .card {
     text-align: center;
-    
-    
+
+
 
 }
-#card-collection .card h3, #card-collection .info h3 ,#card-collection .art h3{
+
+#card-collection .card h3,
+#card-collection .info h3,
+#card-collection .art h3 {
     color: rgb(224, 102, 102);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200px;
-    
-    
+
+
 }
+
 #card-collection .info {
     text-align: center;
 }
-#card-collection .info ,#card-collection .card,#card-collection .art {
+
+#card-collection .info,
+#card-collection .card,
+#card-collection .art {
     padding: 0%;
-    
-    
-    
+
+
+
 }
+
 #card-collection .column {
     font-size: 20px;
 }
+
 #card-collection .art {
     text-align: center;
-    
+
 }

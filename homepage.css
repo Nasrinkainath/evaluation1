@@ -14,6 +14,7 @@ body {
 
 
 }
+
 #intro {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
@@ -23,6 +24,7 @@ body {
     text-shadow: 10px;
     font-weight: bolder;
 }
+
 .pic {
     background-image: url(images/nas.jpg);
     background-size: cover;
@@ -31,17 +33,17 @@ body {
     background-position-x: 300%;
     background-position-y: 30%;
     position: fixed;
-    width : 100%;
-    height : 100vh;
+    width: 100%;
+    height: 100vh;
     z-index: -1;
-    padding-bottom: 0%;  
+    padding-bottom: 0%;
     opacity: 0.5;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(43, 9, 9);
-    font-size:50px;
+    font-size: 50px;
     font-weight: 400px;
     padding: 3%;
 }
@@ -67,96 +69,116 @@ h2 {
     text-decoration: none;
     padding: 20px;
     border-radius: 15px;
-    
+
 
 }
+
 #touch {
     text-align: center;
     padding-top: 200px;
-    
+
 }
 
 nav {
     position: sticky;
 }
+
 #navigate li {
     display: inline;
     padding: 50px;
-    
-    
+
+
 }
+
 #navigate li a {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
     font-weight: 1000;
     text-decoration: none;
-    
+
 }
+
 #navigate {
     float: right;
     margin-top: 40px;
 
 }
-header img,header #header{
+
+header img,
+header #header {
     display: inline;
     vertical-align: middle;
 }
-header #user, header nav{
+
+header #user,
+header nav {
     display: inline;
-    
+
 }
+
 .description {
     padding: 5px;
     background-color: rgb(228, 217, 208);
     color: black;
     padding: 5%;
-    
+
 }
-body #overview, body  #vision, body  #values {
+
+body #overview,
+body #vision,
+body #values {
     height: 8cm;
-    width: 9cm; 
+    width: 9cm;
     padding-top: 3%;
-    padding-bottom: 5%;  
+    padding-bottom: 5%;
 }
-body .description #down1, body .description #down2, body .description #down3 {
+
+body .description #down1,
+body .description #down2,
+body .description #down3 {
     text-align: center;
     width: 100rem;
     justify-content: baseline;
     padding-left: 5%;
-    
+
 }
 
 #card-collection .card {
     display: inline-block;
-    
+
 }
+
 .card-body h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     font-weight: bolder;
     color: black;
-    
-    
+
+
 }
+
 .card-body {
     text-align: center;
     background-color: rgb(207, 189, 172);
     border: 500px;
     border-color: black;
-   
-    
-    
+
+
+
 }
+
 .card-body .sol {
     height: 10vh;
     width: 10vh;
 }
+
 .card {
     margin: 10px;
     width: 7cm;
-    
+
 }
+
 #card-collection {
     padding-left: 5%;
     padding-top: 18%;

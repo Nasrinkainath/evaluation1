@@ -1,9 +1,10 @@
 #pic {
-    
+
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;;
+    right: 0;
+    ;
     background-size: cover;
     background-position-x: 300%;
     background-position-y: 300%;
@@ -21,9 +22,10 @@
     margin: auto;
     margin-top: 50px;
     opacity: 0.7;
-    
-    
+
+
 }
+
 .form h1 {
     text-align: center;
     color: rgb(44, 2, 2);
@@ -31,17 +33,20 @@
     font-size: 70px;
     font-weight: bold;
 }
+
 .form .mb-3 {
     margin: 20px 20px;
     width: 500px;
     display: grid;
-    
+
 }
-.form .mb-3 input{ 
+
+.form .mb-3 input {
     width: 100%;
     font-family: sans-serif;
     background: none;
-    border: 1px solid #0f0f0f;;
+    border: 1px solid #0f0f0f;
+    ;
     font-size: 20px;
     font-weight: bolder;
     color: rgb(54, 14, 4);
@@ -49,57 +54,67 @@
     padding: 3px 0 3px 10px;
     margin-top: 10px;
 }
-#form div button{ 
+
+#form div button {
     width: 100%;
-    font-family:sans-serif;
+    font-family: sans-serif;
     background: none;
-    border: 1px solid #f1f0f0;;
+    border: 1px solid #f1f0f0;
+    ;
     font-size: 20px;
     font-weight: bolder;
     color: rgb(54, 14, 4);
     outline: none;
     padding: 3px 0 3px 10px;
     margin-top: 10px;
-    
+
 }
-.form .mb-3 .form-label{
+
+.form .mb-3 .form-label {
     width: 100%;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: bolder;
     color: rgb(63, 14, 14);
     font-size: 25px;
 }
+
 .booking {
     text-align: center;
     padding-left: 70%;
 }
-#submit,#submit2{
+
+#submit,
+#submit2 {
     width: 50%;
     text-align: center;
     padding: 12%;
-    
+
 }
-#submit button ,#submit2 button{
+
+#submit button,
+#submit2 button {
     font-family: 'Akaya Telivigala', cursive;
     width: 200px;
     background-color: rgb(160, 111, 97) !important;
     color: black !important;
-    
+
 }
-#submit button:hover{
+
+#submit button:hover {
     font-family: 'Akaya Telivigala', cursive;
     width: 200px;
     background-color: black !important;
     color: #fff !important;
 }
-#submit button:active{
+
+#submit button:active {
     font-size: 19px;
     background-color: rgb(46, 20, 5) !important;
     color: #fff !important;
 }
 
 
-#ready{
+#ready {
     font-family: 'Akaya Telivigala', cursive;
     color: #0f0f0f;
     padding-left: 300px;
@@ -108,7 +123,7 @@
 
 
 @media screen and (max-width:710px) {
-    #form{
+    #form {
         text-align: center;
     }
 }
