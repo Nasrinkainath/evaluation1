@@ -99,12 +99,14 @@
 }
 
 
-#read{
+#ready{
     font-family: 'Akaya Telivigala', cursive;
     color: #0f0f0f;
     padding-left: 300px;
     font-weight: 100%;
 }
+
+
 @media screen and (max-width:710px) {
     #form{
         text-align: center;
