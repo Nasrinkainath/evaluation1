@@ -38,6 +38,14 @@ function display_value(data)
                <h4> Email: ${data5}</h4>
                <h4> PhoneNumber: ${data6} </h4>
             </div>
+
+            <div style="display:none" class="art" id="newPassenger"  >
+               <h3> New passenger</h3>
+               <h4> Name: ${data7} ${data8}</h4>
+               <h4> Age: ${data9} </h4>
+               <h4> Gender: ${var1} </h4>
+               
+            </div>
      
             <div class="card" >
                 <h3> Flight Details </h3>
@@ -49,13 +57,7 @@ function display_value(data)
                 <h4>Price: <span> &#8377;${data[flight_id].price}</h4>
             </div>
 
-            <div style="display:none" class="art" id="newPassenger"  >
-               <h3> New passenger</h3>
-               <h4> Name: ${data7} ${data8}</h4>
-               <h4> Age: ${data9} </h4>
-               <h4> Gender: ${var1} </h4>
-               
-            </div>
+            
         
     </div>
     

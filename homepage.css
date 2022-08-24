@@ -83,6 +83,7 @@ nav {
     display: inline;
     padding: 50px;
     
+    
 }
 #navigate li a {
     color: black;
@@ -90,9 +91,12 @@ nav {
     font-size: larger;
     font-weight: 1000;
     text-decoration: none;
+    
 }
 #navigate {
     float: right;
+    margin-top: 40px;
+
 }
 header img,header #header{
     display: inline;
